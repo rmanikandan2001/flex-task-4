@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.row{
+	display:flex;
+	flex-wrap:no wrap;
+	position:relative;
+}
+
+.card{
+	border-radius:5px;
+	margin:20px;
+	box-shadow:0 0 5px 5px rgba(0,0,0,2);
+}
+
+.container{
+	margin:50px 0px 100px 100px;
+}
+
+.title{
+	margin:0,0,25px,20px;
+	line-height:30px;
+}
+
+img.photo1{
+	width:250px;
+	height:250px;
+	border-radius:5px 5px 0 0;
+	
+}
+	
+.title{
+	padding:20px 0 20px 10px;
+	line-height:25px;
+}
+
+.title h1{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.title p{
+	color:rgba(0,0,0,0.5);
+}
+img.photo2{
+	width:250px;
+	height:250px;
+	border-radius:5px 5px 0 0;
+}
+
+img.photo3{
+	width:250px;
+	height:250px;
+	border-radius:5px 5px 0 0;
+}
+
+img.photo4{
+	width:250px;
+	height:250px;
+	border-radius:5px 5px 0 0;
+}
+h5::after{
+	content:"";
+	border:1px solid orange;
+	width:100px;
+	position:absolute;
+	left:170px;
+	top:65px;
+}
+h1{
+	font-size:30px;
+}
+
+h5{
+	color:rgba(0,0,0,0.5);
+}
+	
+	
